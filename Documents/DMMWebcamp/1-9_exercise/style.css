@@ -9,3 +9,36 @@
 	display: block;
 	clear: both;
 }
+
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.box {
+	float: left;
+	width: 300px;
+	border: thin solid whitesmoke;
+	position: relative;
+	padding: 10px;
+}
+
+main .box:nth-child(1), .box:nth-child(2) {
+	margin-right: 30px;
+}
+
+.position {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.step {
+	background-color: orange;
+	color: white;
+	padding: 4px;
+}
+
+.box h3 {
+	margin: 15px 0 5px;
+}
